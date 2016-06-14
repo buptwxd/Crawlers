@@ -2,11 +2,31 @@
 
 Python学习手册
   回调
-  map()
-  reduce()
+#  map()
+#  reduce()
 
 
 Some ideas:
   12306
   继续爬虫
+  获取成都PM2.5
   
+lambda 表达式 语法
+	lambda argument_list: expression
+	The argument list consists of a comma seperated list of arguments
+	The expression is an arithmetic expression using these arguments
+	lambda表达式的优势就是能够与map(), filter(), reduce()结合使用
+
+map()
+	r = map (func, seq)
+
+filter()
+	r = filter(func, list)
+	func返回一个boolean值，当func返回True时候，将被过滤出来
+	Only if the function returns True will the element of the list be included in the return list
+
+reduce()
+	reduce(func, seq)
+	The funciton continually applies the function func() to the sequence seq. It returns a single value
+	注意，func()必须的参数个数必须是两位。
+	关于reduce()的形象解释：http://www.python-course.eu/lambda.php
