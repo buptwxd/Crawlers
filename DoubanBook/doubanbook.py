@@ -21,3 +21,6 @@ for item in soup.select('.subject-item'):
     
 #模拟的情况
 #登录book.douban.com，输入关键字：网络编程
+#依次将打印书名
+#           出版社信息
+#           豆瓣评分
