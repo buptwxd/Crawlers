@@ -10,6 +10,7 @@ Some ideas:
   12306
   继续爬虫
   获取成都PM2.5
+  获取京东上特定商品的价格，当降价时主动发送邮件通知
   
 lambda 表达式 语法
 	lambda argument_list: expression
